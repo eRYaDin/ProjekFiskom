@@ -1,0 +1,14 @@
+LAPORAN ANALISIS DAN SIMULASI OPTIK MODERN
+
+Laporan utama: 6 halaman PDF.
+Sumber teks dan rumus LaTeX: Laporan_Analisis_dan_Simulasi.md.
+
+Dari folder hasil ekstraksi ZIP:
+  python -m pip install -r kode/requirements_interaktif.txt
+  python kode/simulasi_interaktif.py
+
+Pemeriksaan tanpa membuka jendela:
+  python kode/simulasi_interaktif.py --periksa
+
+Mesin hitung: kode/optik_model.py.
+Aplikasi membutuhkan Python dengan Tkinter.
